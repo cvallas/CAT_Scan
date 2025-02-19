@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2F0372D663CA30007DD6D /* Assets.xcassets */; };
+		86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */; };
+		86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0392D663CA30007DD6D /* CATScanApp.swift */; };
+		86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F03B2D663CA30007DD6D /* Persistence.swift */; };
+		86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05C2D664ECB0007DD6D /* HomeView.swift */; };
+		86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05E2D6651140007DD6D /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8695E2372D53FA9A0004C30B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +36,15 @@
 		8695E2212D53FA930004C30B /* CATScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2362D53FA9A0004C30B /* CATScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2402D53FA9A0004C30B /* CATScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F2F0372D663CA30007DD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F2F0392D663CA30007DD6D /* CATScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATScanApp.swift; sourceTree = "<group>"; };
+		86F2F03B2D663CA30007DD6D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		86F2F03C2D663CA30007DD6D /* CATScan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CATScan.xcdatamodel; sourceTree = "<group>"; };
+		86F2F05C2D664ECB0007DD6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		86F2F05E2D6651140007DD6D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8695E2232D53FA930004C30B /* CATScan */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CATScan;
-			sourceTree = "<group>";
-		};
 		8695E2392D53FA9A0004C30B /* CATScanTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CATScanTests;
@@ -75,7 +85,16 @@
 		8695E2182D53FA930004C30B = {
 			isa = PBXGroup;
 			children = (
-				8695E2232D53FA930004C30B /* CATScan */,
+				86F2F0532D664B4F0007DD6D /* Preview Content */,
+				86F2F04E2D663E600007DD6D /* Utils */,
+				86F2F04D2D663E570007DD6D /* CoreML */,
+				86F2F04C2D663E510007DD6D /* Assets */,
+				86F2F04B2D663E4B0007DD6D /* Models */,
+				86F2F04A2D663E420007DD6D /* Components */,
+				86F2F0492D663E3B0007DD6D /* Views */,
+				86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */,
+				86F2F0392D663CA30007DD6D /* CATScanApp.swift */,
+				86F2F03B2D663CA30007DD6D /* Persistence.swift */,
 				8695E2392D53FA9A0004C30B /* CATScanTests */,
 				8695E2432D53FA9A0004C30B /* CATScanUITests */,
 				8695E2222D53FA930004C30B /* Products */,
@@ -92,6 +111,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		86F2F0492D663E3B0007DD6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86F2F05C2D664ECB0007DD6D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86F2F04A2D663E420007DD6D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				86F2F05E2D6651140007DD6D /* ImagePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		86F2F04B2D663E4B0007DD6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86F2F04C2D663E510007DD6D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				86F2F0372D663CA30007DD6D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		86F2F04D2D663E570007DD6D /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		86F2F04E2D663E600007DD6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86F2F0532D664B4F0007DD6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +177,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8695E2232D53FA930004C30B /* CATScan */,
 			);
 			name = CATScan;
 			packageProductDependencies = (
@@ -212,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */,
+				86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */,
+				86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */,
+				86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */,
+				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +469,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CATScan/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 7G2LUFDCQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Cat-Scan-App.CATScan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvallas.CATScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,7 +498,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CATScan/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 7G2LUFDCQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Cat-Scan-App.CATScan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvallas.CATScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -552,6 +628,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86F2F03C2D663CA30007DD6D /* CATScan.xcdatamodel */,
+			);
+			currentVersion = 86F2F03C2D663CA30007DD6D /* CATScan.xcdatamodel */;
+			path = CATScan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8695E2192D53FA930004C30B /* Project object */;
 }
