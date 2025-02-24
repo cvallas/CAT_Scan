@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F22652D6CF3C5008E2279 /* SidebarMenu.swift */; };
 		86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2F0372D663CA30007DD6D /* Assets.xcassets */; };
 		86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */; };
 		86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0392D663CA30007DD6D /* CATScanApp.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		864F22652D6CF3C5008E2279 /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
 		8695E2212D53FA930004C30B /* CATScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2362D53FA9A0004C30B /* CATScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2402D53FA9A0004C30B /* CATScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				86F2F05C2D664ECB0007DD6D /* HomeView.swift */,
+				864F22652D6CF3C5008E2279 /* SidebarMenu.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */,
 				86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */,
 				86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */,
+				864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */,
 				86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */,
 				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
 			);
