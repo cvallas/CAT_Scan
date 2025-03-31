@@ -2,9 +2,15 @@ import SwiftUI
 
 @main
 struct CATScanApp: App {
+    @AppStorage("isLoggedIn") private var isLoggedIn: Bool = false
+
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            if isLoggedIn {
+                HomeView()
+            } else {
+                LoginView()
+            }
         }
     }
 }

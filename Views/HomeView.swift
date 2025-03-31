@@ -11,13 +11,11 @@ struct HomeView: View {
         NavigationStack {
             ZStack {
                 VStack(spacing: 20) {
-                    // App Title
                     Text("🐱 CATScan")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .padding(.top, 40)
 
-                    // Display selected image or placeholder
                     if let image = selectedImage {
                         Image(uiImage: image)
                             .resizable()
@@ -40,7 +38,6 @@ struct HomeView: View {
                         }
                     }
 
-                    // Buttons for selecting images
                     HStack {
                         Button(action: {
                             isCamera = false
@@ -65,16 +62,15 @@ struct HomeView: View {
                         }
                     }
                     .padding(.horizontal)
-                    .buttonStyle(.borderless) // Prevents button styling issues in sheets
+                    .buttonStyle(.borderless)
 
                     Spacer()
                 }
                 .padding()
-                .blur(radius: isMenuOpen ? 5 : 0) // Blurs content when menu is open
-                
-                // Sidebar Menu
+                .blur(radius: isMenuOpen ? 5 : 0)
+
                 if isMenuOpen {
-                    SidebarMenu()
+                    SidebarMenu(isMenuOpen: $isMenuOpen)
                         .transition(.move(edge: .leading))
                         .zIndex(1)
                 }
@@ -108,5 +104,4 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
-
 }

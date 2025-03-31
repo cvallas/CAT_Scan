@@ -1,34 +1,67 @@
 import SwiftUI
 
 struct SidebarMenu: View {
+    @Binding var isMenuOpen: Bool  // Controls menu state
+    @State private var navigationSelection: String? = nil  // Holds selected navigation option
+
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("📁 Menu")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding(.top, 50)
+        NavigationStack {
+            VStack(alignment: .leading, spacing: 20) {
+                // Close Button
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        withAnimation {
+                            isMenuOpen = false
+                        }
+                    }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.title)
+                            .foregroundColor(.gray)
+                            .padding()
+                    }
+                }
 
-            Divider()
+                Text("📁 Menu")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.leading, 20)
 
-            NavigationLink(destination: HomeView()) {
-                Label("Home", systemImage: "house")
-                    .padding()
+                Divider()
+                    .padding(.horizontal)
+
+                // Navigation Buttons
+                NavigationLink(destination: HomeView()) {
+                    Label("Home", systemImage: "house")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding()
+                        .background(Color.blue.opacity(0.2))
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal)
+
+                NavigationLink(destination: SettingsView()) {
+                    Label("Settings", systemImage: "gear")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding()
+                        .background(Color.green.opacity(0.2))
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal)
+
+                NavigationLink(destination: ProfileView()) {
+                    Label("Profile", systemImage: "person")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding()
+                        .background(Color.orange.opacity(0.2))
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal)
+
+                Spacer()
             }
-
-            NavigationLink(destination: Text("Settings Page")) {
-                Label("Settings", systemImage: "gear")
-                    .padding()
-            }
-
-            NavigationLink(destination: Text("Profile Page")) {
-                Label("Profile", systemImage: "person")
-                    .padding()
-            }
-
-            Spacer()
+            .frame(maxWidth: 250, maxHeight: .infinity, alignment: .topLeading)
+            .background(Color(.systemGray6).edgesIgnoringSafeArea(.all))
         }
-        .frame(maxWidth: 250, maxHeight: .infinity)
-        .background(Color(.systemGray6))
-        .edgesIgnoringSafeArea(.all)
     }
 }

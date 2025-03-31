@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86233A2B2D9B10B900592D7C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86233A2A2D9B10B500592D7C /* RegisterView.swift */; };
+		86233A2D2D9B111100592D7C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86233A2C2D9B110D00592D7C /* LoginView.swift */; };
+		8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624D64E2D78B708001CA06D /* ProfileView.swift */; };
+		8624D6512D78B71A001CA06D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624D6502D78B71A001CA06D /* SettingsView.swift */; };
 		864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F22652D6CF3C5008E2279 /* SidebarMenu.swift */; };
 		86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2F0372D663CA30007DD6D /* Assets.xcassets */; };
 		86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86233A2A2D9B10B500592D7C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		86233A2C2D9B110D00592D7C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8624D64E2D78B708001CA06D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8624D6502D78B71A001CA06D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		864F22652D6CF3C5008E2279 /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
 		8695E2212D53FA930004C30B /* CATScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2362D53FA9A0004C30B /* CATScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +124,12 @@
 		86F2F0492D663E3B0007DD6D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				86233A2C2D9B110D00592D7C /* LoginView.swift */,
+				86233A2A2D9B10B500592D7C /* RegisterView.swift */,
 				86F2F05C2D664ECB0007DD6D /* HomeView.swift */,
 				864F22652D6CF3C5008E2279 /* SidebarMenu.swift */,
+				8624D64E2D78B708001CA06D /* ProfileView.swift */,
+				8624D6502D78B71A001CA06D /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,11 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86233A2B2D9B10B900592D7C /* RegisterView.swift in Sources */,
 				86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */,
+				8624D6512D78B71A001CA06D /* SettingsView.swift in Sources */,
 				86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */,
 				86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */,
 				864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */,
 				86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */,
+				8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */,
+				86233A2D2D9B111100592D7C /* LoginView.swift in Sources */,
 				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
