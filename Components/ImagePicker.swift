@@ -62,9 +62,11 @@ struct ImagePicker: UIViewControllerRepresentable {
             )
             alert.addAction(UIAlertAction(title: "OK", style: .default))
 
-            if let topVC = UIApplication.shared.windows.first?.rootViewController {
-                topVC.present(alert, animated: true)
-            }
+            if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                   let topVC = scene.windows.first?.rootViewController {
+                    topVC.present(alert, animated: true, completion: nil)
+                }
+
         }
     }
 }

@@ -1,0 +1,128 @@
+[
+    {
+        "image_path": "./cats_dataset/CAT_00/00000081_001.jpg",
+        "predicted_label": 282,
+        "predicted_breed": "tiger cat",
+        "confidence_score": 0.7564743757247925
+    },
+    {
+        "image_path": "./cats_dataset/CAT_00/00000374_025.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.3668275475502014
+    },
+    {
+        "image_path": "./cats_dataset/CAT_00/00000380_024.jpg",
+        "predicted_label": 706,
+        "predicted_breed": "patio, terrace",
+        "confidence_score": 0.17894993722438812
+    },
+    {
+        "image_path": "./cats_dataset/CAT_01/00000211_006.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.3248644769191742
+    },
+    {
+        "image_path": "./cats_dataset/CAT_01/00000201_012.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.24558264017105103
+    },
+    {
+        "image_path": "./cats_dataset/CAT_01/00000136_021.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.7242248058319092
+    },
+    {
+        "image_path": "./cats_dataset/CAT_02/00000630_028.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.3199818432331085
+    },
+    {
+        "image_path": "./cats_dataset/CAT_02/00000521_019.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.8311036229133606
+    },
+    {
+        "image_path": "./cats_dataset/CAT_02/00000620_000.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.5897935032844543
+    },
+    {
+        "image_path": "./cats_dataset/CAT_03/00000870_015.jpg",
+        "predicted_label": 904,
+        "predicted_breed": "window screen",
+        "confidence_score": 0.2976972162723541
+    },
+    {
+        "image_path": "./cats_dataset/CAT_03/00000889_023.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.7469502091407776
+    },
+    {
+        "image_path": "./cats_dataset/CAT_03/00000846_003.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.08937085419893265
+    },
+    {
+        "image_path": "./cats_dataset/CAT_04/00001010_004.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.7236177921295166
+    },
+    {
+        "image_path": "./cats_dataset/CAT_04/00001036_006.jpg",
+        "predicted_label": 283,
+        "predicted_breed": "Persian cat",
+        "confidence_score": 0.3710514307022095
+    },
+    {
+        "image_path": "./cats_dataset/CAT_04/00000933_020.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.534898579120636
+    },
+    {
+        "image_path": "./cats_dataset/CAT_05/00001280_003.jpg",
+        "predicted_label": 283,
+        "predicted_breed": "Persian cat",
+        "confidence_score": 0.6993394494056702
+    },
+    {
+        "image_path": "./cats_dataset/CAT_05/00001168_004.jpg",
+        "predicted_label": 284,
+        "predicted_breed": "Siamese cat, Siamese",
+        "confidence_score": 0.7692060470581055
+    },
+    {
+        "image_path": "./cats_dataset/CAT_05/00001168_010.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.24168634414672852
+    },
+    {
+        "image_path": "./cats_dataset/CAT_06/00001382_005.jpg",
+        "predicted_label": 904,
+        "predicted_breed": "window screen",
+        "confidence_score": 0.6461049318313599
+    },
+    {
+        "image_path": "./cats_dataset/CAT_06/00001406_011.jpg",
+        "predicted_label": 281,
+        "predicted_breed": "tabby, tabby cat",
+        "confidence_score": 0.7013775706291199
+    },
+    {
+        "image_path": "./cats_dataset/CAT_06/00001300_024.jpg",
+        "predicted_label": 285,
+        "predicted_breed": "Egyptian cat",
+        "confidence_score": 0.671442985534668
+    }
+]

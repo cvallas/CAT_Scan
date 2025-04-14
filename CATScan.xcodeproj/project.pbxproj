@@ -18,6 +18,13 @@
 		86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F03B2D663CA30007DD6D /* Persistence.swift */; };
 		86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05C2D664ECB0007DD6D /* HomeView.swift */; };
 		86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05E2D6651140007DD6D /* ImagePicker.swift */; };
+		AAA149E32DA2D12200DD0D34 /* cat_breed_predictions.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */; };
+		AAA149E72DA48C6000DD0D34 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E62DA48C6000DD0D34 /* Prediction.swift */; };
+		AAA149E92DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
+		AAA149EA2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
+		AAA149EB2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
+		AAF56BAD2D9DA26200CB1C44 /* CatBreedClassifierHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */; };
+		AAF56BB12D9DA9BE00CB1C44 /* PreviewAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,11 @@
 		86F2F03C2D663CA30007DD6D /* CATScan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CATScan.xcdatamodel; sourceTree = "<group>"; };
 		86F2F05C2D664ECB0007DD6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		86F2F05E2D6651140007DD6D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat_breed_predictions.json; sourceTree = "<group>"; };
+		AAA149E62DA48C6000DD0D34 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = SOURCE_ROOT; };
+		AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedClassifierHelper.swift; sourceTree = "<group>"; };
+		AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PreviewAssests.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -95,7 +107,9 @@
 		8695E2182D53FA930004C30B = {
 			isa = PBXGroup;
 			children = (
-				86F2F0532D664B4F0007DD6D /* Preview Content */,
+				AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */,
+				AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */,
+				AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */,
 				86F2F04E2D663E600007DD6D /* Utils */,
 				86F2F04D2D663E570007DD6D /* CoreML */,
 				86F2F04C2D663E510007DD6D /* Assets */,
@@ -145,6 +159,7 @@
 		86F2F04B2D663E4B0007DD6D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AAA149E62DA48C6000DD0D34 /* Prediction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				86F2F0372D663CA30007DD6D /* Assets.xcassets */,
+				AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -169,13 +185,6 @@
 			children = (
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		86F2F0532D664B4F0007DD6D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA149E32DA2D12200DD0D34 /* cat_breed_predictions.json in Resources */,
 				86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */,
+				AAF56BB12D9DA9BE00CB1C44 /* PreviewAssests.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +338,9 @@
 				86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */,
 				864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */,
 				86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */,
+				AAF56BAD2D9DA26200CB1C44 /* CatBreedClassifierHelper.swift in Sources */,
+				AAA149EA2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */,
+				AAA149E72DA48C6000DD0D34 /* Prediction.swift in Sources */,
 				8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */,
 				86233A2D2D9B111100592D7C /* LoginView.swift in Sources */,
 				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
@@ -337,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA149EB2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA149E92DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7G2LUFDCQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -518,7 +534,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7G2LUFDCQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
