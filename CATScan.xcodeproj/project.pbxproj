@@ -23,8 +23,18 @@
 		AAA149E92DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
 		AAA149EA2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
 		AAA149EB2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
+		AAB904B12DB444E700124D3A /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB904B02DB444E200124D3A /* FontStyle.swift */; };
+		AADEFCA62DB162F70010C42C /* catpic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCA32DB162F70010C42C /* catpic.jpeg */; };
+		AADEFCA92DB162F70010C42C /* catpic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCA32DB162F70010C42C /* catpic.jpeg */; };
+		AADEFCAA2DB162F70010C42C /* catpic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCA32DB162F70010C42C /* catpic.jpeg */; };
+		AADEFCB02DB168150010C42C /* catscan.png in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCAF2DB168150010C42C /* catscan.png */; };
+		AADEFCB12DB168150010C42C /* catscan.png in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCAF2DB168150010C42C /* catscan.png */; };
+		AADEFCB22DB168150010C42C /* catscan.png in Resources */ = {isa = PBXBuildFile; fileRef = AADEFCAF2DB168150010C42C /* catscan.png */; };
 		AAF56BAD2D9DA26200CB1C44 /* CatBreedClassifierHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */; };
 		AAF56BB12D9DA9BE00CB1C44 /* PreviewAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */; };
+		AAFD3B332DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAFD3B322DB4321C0097F9F2 /* Milkyway DEMO.ttf */; };
+		AAFD3B342DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAFD3B322DB4321C0097F9F2 /* Milkyway DEMO.ttf */; };
+		AAFD3B352DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAFD3B322DB4321C0097F9F2 /* Milkyway DEMO.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +72,13 @@
 		AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat_breed_predictions.json; sourceTree = "<group>"; };
 		AAA149E62DA48C6000DD0D34 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = SOURCE_ROOT; };
 		AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		AAB904B02DB444E200124D3A /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		AADEFCA32DB162F70010C42C /* catpic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catpic.jpeg; sourceTree = "<group>"; };
+		AADEFCAF2DB168150010C42C /* catscan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catscan.png; sourceTree = "<group>"; };
 		AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedClassifierHelper.swift; sourceTree = "<group>"; };
 		AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PreviewAssests.xcassets; sourceTree = "<group>"; };
+		AAFD3B1F2DB422BA0097F9F2 /* CATScan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CATScan-Info.plist"; sourceTree = "<group>"; };
+		AAFD3B322DB4321C0097F9F2 /* Milkyway DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Milkyway DEMO.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +90,11 @@
 		8695E2432D53FA9A0004C30B /* CATScanUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CATScanUITests;
+			sourceTree = "<group>";
+		};
+		AAFD3B262DB429830097F9F2 /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -107,6 +127,7 @@
 		8695E2182D53FA930004C30B = {
 			isa = PBXGroup;
 			children = (
+				AAFD3B1F2DB422BA0097F9F2 /* CATScan-Info.plist */,
 				AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */,
 				AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */,
 				AAF56BAC2D9DA24D00CB1C44 /* CatBreedClassifierHelper.swift */,
@@ -119,6 +140,9 @@
 				86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */,
 				86F2F0392D663CA30007DD6D /* CATScanApp.swift */,
 				86F2F03B2D663CA30007DD6D /* Persistence.swift */,
+				AAB904B02DB444E200124D3A /* FontStyle.swift */,
+				AAFD3B322DB4321C0097F9F2 /* Milkyway DEMO.ttf */,
+				AAFD3B262DB429830097F9F2 /* Extensions */,
 				8695E2392D53FA9A0004C30B /* CATScanTests */,
 				8695E2432D53FA9A0004C30B /* CATScanUITests */,
 				8695E2222D53FA930004C30B /* Products */,
@@ -169,6 +193,8 @@
 			children = (
 				86F2F0372D663CA30007DD6D /* Assets.xcassets */,
 				AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */,
+				AADEFCAF2DB168150010C42C /* catscan.png */,
+				AADEFCA32DB162F70010C42C /* catpic.jpeg */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -201,6 +227,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAFD3B262DB429830097F9F2 /* Extensions */,
 			);
 			name = CATScan;
 			packageProductDependencies = (
@@ -305,8 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA149E32DA2D12200DD0D34 /* cat_breed_predictions.json in Resources */,
+				AAFD3B342DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */,
 				86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */,
+				AADEFCB02DB168150010C42C /* catscan.png in Resources */,
 				AAF56BB12D9DA9BE00CB1C44 /* PreviewAssests.xcassets in Resources */,
+				AADEFCA92DB162F70010C42C /* catpic.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFD3B352DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */,
+				AADEFCAA2DB162F70010C42C /* catpic.jpeg in Resources */,
+				AADEFCB22DB168150010C42C /* catscan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +356,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFD3B332DB4321C0097F9F2 /* Milkyway DEMO.ttf in Resources */,
+				AADEFCA62DB162F70010C42C /* catpic.jpeg in Resources */,
+				AADEFCB12DB168150010C42C /* catscan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +382,7 @@
 				8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */,
 				86233A2D2D9B111100592D7C /* LoginView.swift in Sources */,
 				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
+				AAB904B12DB444E700124D3A /* FontStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,15 +542,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 7G2LUFDCQA;
+				DEVELOPMENT_ASSET_PATHS = Assets;
+				DEVELOPMENT_TEAM = 8F649CJ9FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CATScan-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CATscan;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take cat photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Assets.xcassets;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -519,7 +564,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cvallas.CATScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivia.CATScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -532,15 +577,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 7G2LUFDCQA;
+				DEVELOPMENT_ASSET_PATHS = Assets;
+				DEVELOPMENT_TEAM = 8F649CJ9FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CATScan-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CATscan;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take cat photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Assets.xcassets;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -548,7 +599,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cvallas.CATScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olivia.CATScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

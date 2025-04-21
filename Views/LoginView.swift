@@ -13,42 +13,56 @@ struct LoginView: View {
 
     var body: some View {
         NavigationStack(path: $path) {
-            VStack(spacing: 30) {
-                Text("Login")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-
-                TextField("Username", text: $username)
-                    .textFieldStyle(.roundedBorder)
-
-                SecureField("Password", text: $password)
-                    .textFieldStyle(.roundedBorder)
-
-                Button("Login") {
-                    login()
+            ZStack {
+                Color.theme.background // your full-screen color
+                    .ignoresSafeArea() // this makes it full screen
+                
+                VStack(spacing: 30) {
+                    Text("Login")
+                        .font(.custom("MilkywayDEMO", size: 50))
+                        .fontWeight(.bold)
+                    
+                    TextField("Username", text: $username)
+                        .font(.custom("MilkywayDEMO", size: 20))
+                        .textFieldStyle(.roundedBorder)
+                    
+                    SecureField("Password", text: $password)
+                        .font(.custom("MilkywayDEMO", size: 20))
+                        .textFieldStyle(.roundedBorder)
+                    
+                    Button("Login") {
+                        
+                        login()
+                    }
+                    .frame(maxWidth: .infinity, minHeight: 50)
+                    .background(Color.accentColor)
+                    .font(.custom("MilkywayDEMO", size: 20))
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    
+                    if showError {
+                        Text(errorMessage)
+                            .foregroundColor(.red)
+                    }
+                    
+                    // ✅ Updated NavigationLink
+                    NavigationLink("Don't have an account? Register", value: "register")
+                        .font(.custom("MilkywayDEMO", size: 20))
+                        .padding(.top, 10)
                 }
-                .frame(maxWidth: .infinity, minHeight: 50)
-                .background(Color.green)
-                .foregroundColor(.white)
-                .cornerRadius(10)
-
-                if showError {
-                    Text(errorMessage)
-                        .foregroundColor(.red)
+                .padding()
+                .background(Color.theme.background)
+                // ✅ Define where the link should navigate
+                .navigationDestination(for: String.self) { value in
+                    if value == "register" {
+                        RegisterView()
+                    }
                 }
-
-                // ✅ Updated NavigationLink
-                NavigationLink("Don't have an account? Register", value: "register")
-                    .padding(.top, 10)
+                .background(Color.theme.background)
             }
-            .padding()
-            // ✅ Define where the link should navigate
-            .navigationDestination(for: String.self) { value in
-                if value == "register" {
-                    RegisterView()
-                }
-            }
+            
         }
+        .background(Color.theme.background)
     }
 
     private func login() {
@@ -58,5 +72,13 @@ struct LoginView: View {
             errorMessage = "Invalid credentials."
             showError = true
         }
+           
+        
     }
+        
 }
+#Preview {
+    
+    LoginView()
+}
+
