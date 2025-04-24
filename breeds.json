@@ -1,0 +1,158 @@
+[
+  {
+    "id": "n02123159",
+    "name": "Tiger Cat",
+    "origin": "Global (Pattern, not a breed)",
+    "description": "Tiger cats, often referred to as mackerel tabbies, have narrow stripes running parallel down their sides. They are outgoing and friendly.",
+    "temperament": "Friendly, Curious, Energetic",
+    "fun_facts": [
+      "Their striped pattern resembles that of a tiger.",
+      "They are known for their playful nature.",
+      "Not a distinct breed but a common coat pattern."
+    ]
+  },
+  {
+    "id": "n02123045",
+    "name": "Tabby Cat",
+    "origin": "Global (Pattern, not a breed)",
+    "description": "Tabby cats are known for their distinctive 'M' forehead marking and various coat patterns. They are friendly, affectionate, and excellent hunters.",
+    "temperament": "Affectionate, Playful, Intelligent",
+    "fun_facts": [
+      "Tabby is a coat pattern found in many breeds.",
+      "They often have a strong hunting instinct.",
+      "The 'M' marking on their forehead is a signature trait."
+    ]
+  },
+  {
+    "id": "n02123394",
+    "name": "Persian Cat",
+    "origin": "Iran (Persia)",
+    "description": "Persian cats have long, luxurious coats and a calm demeanor. They are affectionate and prefer serene environments.",
+    "temperament": "Gentle, Quiet, Affectionate",
+    "fun_facts": [
+      "One of the oldest cat breeds.",
+      "Require regular grooming due to their long fur.",
+      "Known for their expressive eyes and flat faces."
+    ]
+  },
+  {
+    "id": "n02123597",
+    "name": "Siamese Cat",
+    "origin": "Thailand (formerly Siam)",
+    "description": "Siamese cats are social, intelligent, and vocal. They have a sleek body, blue almond-shaped eyes, and point coloration.",
+    "temperament": "Social, Intelligent, Vocal",
+    "fun_facts": [
+      "They often 'talk' with their owners.",
+      "One of the oldest and most recognizable breeds.",
+      "Their coat color is temperature-sensitive."
+    ]
+  },
+  {
+    "id": "n02124075",
+    "name": "Egyptian Mau",
+    "origin": "Egypt",
+    "description": "Egyptian Maus are the only naturally spotted domestic cat breed. They are loyal, intelligent, and have a unique skin flap for agility.",
+    "temperament": "Loyal, Intelligent, Agile",
+    "fun_facts": [
+      "Can run up to 30 mph, making them the fastest domestic cat.",
+      "Often form strong bonds with a single person.",
+      "Their spots are unique to each individual."
+    ]
+  },
+  {
+    "id": "n02125311",
+    "name": "Cougar",
+    "origin": "Americas",
+    "description": "Also known as mountain lions or pumas, cougars are large wild cats found throughout the Americas.",
+    "temperament": "Solitary, Agile, Stealthy",
+    "fun_facts": [
+      "Can leap up to 18 feet vertically.",
+      "Silent hunters, rarely vocal.",
+      "They are the second heaviest big cat in the Americas after the jaguar."
+    ]
+  },
+  {
+    "id": "n02127052",
+    "name": "Lynx",
+    "origin": "North America and Eurasia",
+    "description": "Lynxes are medium-sized wild cats with tufted ears and short tails, known for their stealth.",
+    "temperament": "Elusive, Independent, Observant",
+    "fun_facts": [
+      "Have large paws that act like snowshoes.",
+      "Ear tufts help with hearing.",
+      "They are excellent climbers and swimmers."
+    ]
+  },
+  {
+    "id": "n02128385",
+    "name": "Leopard",
+    "origin": "Africa and Asia",
+    "description": "Leopards are powerful and agile big cats known for their rosette-spotted coats and stealthy hunting.",
+    "temperament": "Solitary, Stealthy, Agile",
+    "fun_facts": [
+      "Can carry prey heavier than themselves into trees.",
+      "Excellent swimmers.",
+      "Often confused with jaguars."
+    ]
+  },
+  {
+    "id": "n02128757",
+    "name": "Snow Leopard",
+    "origin": "Central Asia",
+    "description": "Snow leopards are elusive big cats adapted to cold mountainous environments with long tails and thick fur.",
+    "temperament": "Elusive, Silent, Adaptable",
+    "fun_facts": [
+      "Known as 'ghosts of the mountains.'",
+      "Thick fur and long tails help them survive in freezing climates.",
+      "Rarely seen in the wild."
+    ]
+  },
+  {
+    "id": "n02128925",
+    "name": "Jaguar",
+    "origin": "Central and South America",
+    "description": "Jaguars are robust big cats with a powerful bite, usually found in rainforests and swamps.",
+    "temperament": "Bold, Reclusive, Strong",
+    "fun_facts": [
+      "Have the strongest bite force of any big cat.",
+      "Often hunt in water.",
+      "Rosettes on their coat have central spots (unlike leopards)."
+    ]
+  },
+  {
+    "id": "n02129165",
+    "name": "Lion",
+    "origin": "Africa",
+    "description": "Lions are the only social big cats, living in prides. Males have manes and females are the primary hunters.",
+    "temperament": "Social, Brave, Dominant",
+    "fun_facts": [
+      "Roars can be heard up to 5 miles away.",
+      "Lions rest up to 20 hours a day.",
+      "Female lions do most of the hunting."
+    ]
+  },
+  {
+    "id": "n02130308",
+    "name": "Cheetah",
+    "origin": "Africa and Iran",
+    "description": "Cheetahs are the fastest land animals, capable of reaching speeds up to 60-70 mph in short bursts.",
+    "temperament": "Alert, Gentle, Focused",
+    "fun_facts": [
+      "Non-retractable claws help with traction.",
+      "Cannot roar but make chirping sounds.",
+      "Have 'tear marks' under eyes for reducing glare."
+    ]
+  },
+  {
+    "id": "n02129604",
+    "name": "Tiger",
+    "origin": "Asia",
+    "description": "Tigers are the largest wild cats, known for their striped coats and powerful builds.",
+    "temperament": "Solitary, Strong, Territorial",
+    "fun_facts": [
+      "Each tiger's stripes are unique.",
+      "Good swimmers and often bathe in rivers.",
+      "Roars can be heard 2 miles away."
+    ]
+  }
+]

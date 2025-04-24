@@ -12,12 +12,21 @@
 		8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624D64E2D78B708001CA06D /* ProfileView.swift */; };
 		8624D6512D78B71A001CA06D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624D6502D78B71A001CA06D /* SettingsView.swift */; };
 		864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F22652D6CF3C5008E2279 /* SidebarMenu.swift */; };
+		8657F1FC2DBA227C00646304 /* SavedCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657F1FB2DBA227B00646304 /* SavedCat.swift */; };
+		8657F20A2DBA824600646304 /* SaveCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657F2092DBA824100646304 /* SaveCatView.swift */; };
+		8657F20C2DBAB2CE00646304 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657F20B2DBAB2C900646304 /* SplashScreenView.swift */; };
 		86F2F03E2D663CA30007DD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2F0372D663CA30007DD6D /* Assets.xcassets */; };
 		86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0382D663CA30007DD6D /* CATScan.xcdatamodeld */; };
 		86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F0392D663CA30007DD6D /* CATScanApp.swift */; };
 		86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F03B2D663CA30007DD6D /* Persistence.swift */; };
 		86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05C2D664ECB0007DD6D /* HomeView.swift */; };
 		86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F2F05E2D6651140007DD6D /* ImagePicker.swift */; };
+		86F550DE2DB952F8006DCD19 /* BreedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F550DD2DB952F8006DCD19 /* BreedInfo.swift */; };
+		86F550E42DB95360006DCD19 /* BreedInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F550E32DB95356006DCD19 /* BreedInfoView.swift */; };
+		86F550E62DB95377006DCD19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F550E52DB95370006DCD19 /* ContentView.swift */; };
+		86F550EA2DB953FD006DCD19 /* breeds.json in Resources */ = {isa = PBXBuildFile; fileRef = 86F550E92DB953F7006DCD19 /* breeds.json */; };
+		86F550EC2DB9B9A3006DCD19 /* CatBreedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F550EB2DB9B9A3006DCD19 /* CatBreedInfo.swift */; };
+		86F550EE2DB9BC3C006DCD19 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F550ED2DB9BC3C006DCD19 /* UserProfileManager.swift */; };
 		AAA149E32DA2D12200DD0D34 /* cat_breed_predictions.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */; };
 		AAA149E72DA48C6000DD0D34 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E62DA48C6000DD0D34 /* Prediction.swift */; };
 		AAA149E92DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */; };
@@ -60,6 +69,9 @@
 		8624D64E2D78B708001CA06D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8624D6502D78B71A001CA06D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		864F22652D6CF3C5008E2279 /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
+		8657F1FB2DBA227B00646304 /* SavedCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCat.swift; sourceTree = SOURCE_ROOT; };
+		8657F2092DBA824100646304 /* SaveCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCatView.swift; sourceTree = "<group>"; };
+		8657F20B2DBAB2C900646304 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		8695E2212D53FA930004C30B /* CATScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2362D53FA9A0004C30B /* CATScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695E2402D53FA9A0004C30B /* CATScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +81,12 @@
 		86F2F03C2D663CA30007DD6D /* CATScan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CATScan.xcdatamodel; sourceTree = "<group>"; };
 		86F2F05C2D664ECB0007DD6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		86F2F05E2D6651140007DD6D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		86F550DD2DB952F8006DCD19 /* BreedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreedInfo.swift; path = Views/BreedInfo.swift; sourceTree = SOURCE_ROOT; };
+		86F550E32DB95356006DCD19 /* BreedInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInfoView.swift; sourceTree = "<group>"; };
+		86F550E52DB95370006DCD19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86F550E92DB953F7006DCD19 /* breeds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = breeds.json; sourceTree = "<group>"; };
+		86F550EB2DB9B9A3006DCD19 /* CatBreedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedInfo.swift; sourceTree = SOURCE_ROOT; };
+		86F550ED2DB9BC3C006DCD19 /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = SOURCE_ROOT; };
 		AAA149E22DA2D12100DD0D34 /* cat_breed_predictions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cat_breed_predictions.json; sourceTree = "<group>"; };
 		AAA149E62DA48C6000DD0D34 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = SOURCE_ROOT; };
 		AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
@@ -90,6 +108,16 @@
 		8695E2432D53FA9A0004C30B /* CATScanUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CATScanUITests;
+			sourceTree = "<group>";
+		};
+		86F550DF2DB95327006DCD19 /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		86F550EF2DB9E528006DCD19 /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		AAFD3B262DB429830097F9F2 /* Extensions */ = {
@@ -127,6 +155,8 @@
 		8695E2182D53FA930004C30B = {
 			isa = PBXGroup;
 			children = (
+				86F550EF2DB9E528006DCD19 /* Helpers */,
+				86F550E92DB953F7006DCD19 /* breeds.json */,
 				AAFD3B1F2DB422BA0097F9F2 /* CATScan-Info.plist */,
 				AAF56BB02D9DA9BE00CB1C44 /* PreviewAssests.xcassets */,
 				AAA149E82DAAF34400DD0D34 /* MobileNet.mlmodel */,
@@ -146,6 +176,7 @@
 				8695E2392D53FA9A0004C30B /* CATScanTests */,
 				8695E2432D53FA9A0004C30B /* CATScanUITests */,
 				8695E2222D53FA930004C30B /* Products */,
+				86F550DF2DB95327006DCD19 /* Data */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,9 +193,13 @@
 		86F2F0492D663E3B0007DD6D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8657F20B2DBAB2C900646304 /* SplashScreenView.swift */,
+				8657F2092DBA824100646304 /* SaveCatView.swift */,
 				86233A2C2D9B110D00592D7C /* LoginView.swift */,
 				86233A2A2D9B10B500592D7C /* RegisterView.swift */,
+				86F550E32DB95356006DCD19 /* BreedInfoView.swift */,
 				86F2F05C2D664ECB0007DD6D /* HomeView.swift */,
+				86F550E52DB95370006DCD19 /* ContentView.swift */,
 				864F22652D6CF3C5008E2279 /* SidebarMenu.swift */,
 				8624D64E2D78B708001CA06D /* ProfileView.swift */,
 				8624D6502D78B71A001CA06D /* SettingsView.swift */,
@@ -184,6 +219,10 @@
 			isa = PBXGroup;
 			children = (
 				AAA149E62DA48C6000DD0D34 /* Prediction.swift */,
+				86F550DD2DB952F8006DCD19 /* BreedInfo.swift */,
+				86F550EB2DB9B9A3006DCD19 /* CatBreedInfo.swift */,
+				86F550ED2DB9BC3C006DCD19 /* UserProfileManager.swift */,
+				8657F1FB2DBA227B00646304 /* SavedCat.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -229,6 +268,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				86F550DF2DB95327006DCD19 /* Data */,
+				86F550EF2DB9E528006DCD19 /* Helpers */,
 				AAFD3B262DB429830097F9F2 /* Extensions */,
 			);
 			name = CATScan;
@@ -339,6 +380,7 @@
 				AADEFCB02DB168150010C42C /* catscan.png in Resources */,
 				AAF56BB12D9DA9BE00CB1C44 /* PreviewAssests.xcassets in Resources */,
 				AADEFCA92DB162F70010C42C /* catpic.jpeg in Resources */,
+				86F550EA2DB953FD006DCD19 /* breeds.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,16 +414,24 @@
 				86233A2B2D9B10B900592D7C /* RegisterView.swift in Sources */,
 				86F2F03F2D663CA30007DD6D /* CATScan.xcdatamodeld in Sources */,
 				8624D6512D78B71A001CA06D /* SettingsView.swift in Sources */,
+				86F550EC2DB9B9A3006DCD19 /* CatBreedInfo.swift in Sources */,
 				86F2F0402D663CA30007DD6D /* CATScanApp.swift in Sources */,
+				8657F20C2DBAB2CE00646304 /* SplashScreenView.swift in Sources */,
 				86F2F05F2D6651140007DD6D /* ImagePicker.swift in Sources */,
 				864F22662D6CF3C5008E2279 /* SidebarMenu.swift in Sources */,
 				86F2F05D2D664ECB0007DD6D /* HomeView.swift in Sources */,
+				86F550E62DB95377006DCD19 /* ContentView.swift in Sources */,
 				AAF56BAD2D9DA26200CB1C44 /* CatBreedClassifierHelper.swift in Sources */,
+				8657F1FC2DBA227C00646304 /* SavedCat.swift in Sources */,
+				86F550E42DB95360006DCD19 /* BreedInfoView.swift in Sources */,
+				86F550DE2DB952F8006DCD19 /* BreedInfo.swift in Sources */,
 				AAA149EA2DAAF34400DD0D34 /* MobileNet.mlmodel in Sources */,
 				AAA149E72DA48C6000DD0D34 /* Prediction.swift in Sources */,
 				8624D64F2D78B708001CA06D /* ProfileView.swift in Sources */,
 				86233A2D2D9B111100592D7C /* LoginView.swift in Sources */,
 				86F2F0422D663CA30007DD6D /* Persistence.swift in Sources */,
+				86F550EE2DB9BC3C006DCD19 /* UserProfileManager.swift in Sources */,
+				8657F20A2DBA824600646304 /* SaveCatView.swift in Sources */,
 				AAB904B12DB444E700124D3A /* FontStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
